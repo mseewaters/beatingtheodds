@@ -1,0 +1,2 @@
+# beatingtheodds
+nfl betting alogrithms
