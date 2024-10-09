@@ -1,0 +1,49 @@
+filtered_played[['Delta_ScoreRank','Delta_OffenseRank','Delta_DefenseRank',\
+                'intTerm1', 'intTerm2','intTerm3', 'intTerm4', \
+                'quadTerm1','quadTerm2', 'quadTerm3', 'quadTerm4']],
+    filtered_played[['Delta_ScoreRank','Delta_OffenseRank','Delta_DefenseRank',\
+                'intTerm1', 'intTerm2','intTerm3', 'intTerm4']],
+    filtered_played[['Delta_ScoreRank',\
+                'intTerm1', 'intTerm2','intTerm3', 'intTerm4']],
+    pd.DataFrame(scaler.fit_transform(filtered_played[['Delta_ScoreRank','Delta_OffenseRank','Delta_DefenseRank', \
+                'intTerm1', 'intTerm2','intTerm3', 'intTerm4']])),
+    pd.DataFrame(scaler.fit_transform(filtered_played[['Delta_ScoreRank','Delta_OffenseRank','Delta_DefenseRank', \
+                'intTerm1', 'intTerm2','intTerm3', 'intTerm4', \
+                'quadTerm1','quadTerm2', 'quadTerm3', 'quadTerm4']]))
+
+
+from sklearn.feature_selection import RFE
+
+model = LinearRegression(fit_intercept=False)
+rfe = RFE(model, n_features_to_select=3)
+rfe = rfe.fit(X, y)
+
+rankings = rfe.ranking_
+feature_ranking = zip(X.columns, rankings)
+print("Feature rankings:")
+for feature, rank in feature_ranking:
+    print(f"{feature}: {rank}")
+
+from sklearn.feature_selection import SelectKBest, f_regression
+
+selector = SelectKBest(score_func=f_regression, k=3)
+X_new = selector.fit_transform(X, y)
+rankings = selector.get_support()
+feature_ranking = zip(X.columns, rankings)
+print("Feature rankings:")
+for feature, rank in feature_ranking:
+    print(f"{feature}: {rank}")
+
+from statsmodels.stats.outliers_influence import variance_inflation_factor
+
+vif = pd.DataFrame()
+vif["VIF Factor"] = [variance_inflation_factor(X.values, i) for i in range(X.shape[1])]
+vif["features"] = X.columns
+print(vif)
+
+
+from scipy.stats.mstats import winsorize
+y = pd.Series(winsorize(filtered_played['Spread'], limits=[0.05, 0.05]))
+#y = filtered_played['Spread']
+
+pd.Series(pt.fit_transform(filtered_played[['Spread']]).flatten(), index=filtered_played.index)
