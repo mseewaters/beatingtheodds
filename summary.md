@@ -14,3 +14,12 @@ dataprep_pfr.ipynb
 - data input: data\nfl_games_pfr_raw.csv
 - data output: data\nfl_games_pfr.csv
 
+
+## Ranks are calculated using page rank and features created using a combination of these
+
+Options:  single win/loss ranking, iterative strength of schedule
+
+## Predictive models are built using ranking features (regression:  target = spread; classification: target = winner)
+
+
+
