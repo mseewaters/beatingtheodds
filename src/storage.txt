@@ -47,3 +47,64 @@ y = pd.Series(winsorize(filtered_played['Spread'], limits=[0.05, 0.05]))
 #y = filtered_played['Spread']
 
 pd.Series(pt.fit_transform(filtered_played[['Spread']]).flatten(), index=filtered_played.index)
+
+
+
+# Dictionary to store performance data for home and away impacts
+home_away_impacts = []
+
+#
+df_recentgames = df_games[df_games['season'] >= 2020]
+
+# Get a list of unique teams
+teams = df_recentgames['Home Team'].unique()
+
+for team in teams:
+    # Filter games where the team is either home or away
+    home_games = df_recentgames[df_recentgames['Home Team'] == team]
+    away_games = df_recentgames[df_recentgames['Away Team'] == team]
+
+    # Iterate over each opponent the team has faced
+    for opponent in home_games['Away Team'].unique():
+        # Check if the team played both a home and away game against this opponent
+        if opponent in away_games['Home Team'].values:
+            # Home game(s) against this opponent
+            home_matchups = home_games[home_games['Away Team'] == opponent]
+            # Away game(s) against this opponent
+            away_matchups = away_games[away_games['Home Team'] == opponent]
+
+            # Ensure there is at least one home and one away game
+            if not home_matchups.empty and not away_matchups.empty:
+                # Compute the average points differential at home and away
+                home_avg_diff = home_matchups['Margin Pts'].mean()
+                away_avg_diff = away_matchups['Margin Pts'].mean()
+
+                # Count the number of matchups used in the calculations
+                num_matchups = len(home_matchups) + len(away_matchups)
+
+                # Store the impact data for home and away
+                home_away_impacts.append({
+                    'Team': team,
+                    'Opponent': opponent,
+                    'Home_Avg_Diff': home_avg_diff,
+                    'Away_Avg_Diff': away_avg_diff,
+                    'Home_Impact': home_avg_diff - away_avg_diff,
+                    'Away_Impact': away_avg_diff - home_avg_diff,
+                    'Matchup_Count': num_matchups
+                })
+
+# Convert the results to a DataFrame
+home_away_impact_df = pd.DataFrame(home_away_impacts)
+print(home_away_impact_df.head())
+
+filtered_impact_df = home_away_impact_df[home_away_impact_df['Matchup_Count'] > 3]
+
+# Group by team and calculate the mean home vs away impact
+team_home_away_impact = filtered_impact_df.groupby('Team').agg({
+    'Home_Avg_Diff': 'mean',
+    'Away_Avg_Diff': 'mean',
+    'Home_Impact': 'mean',
+    'Away_Impact': 'mean',
+    'Matchup_Count': 'sum'
+}).reset_index()
+print(team_home_away_impact)
