@@ -27,17 +27,17 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 6,Sun,2024-10-13,4:25PM,Detroit Lions,@,Dallas Cowboys,boxscore,47,9,492,0,251,5
 6,Sun,2024-10-13,8:20PM,Cincinnati Bengals,@,New York Giants,boxscore,17,7,304,1,309,1
 6,Mon,2024-10-14,8:15PM,Buffalo Bills,@,New York Jets,boxscore,23,20,359,0,393,1
-7,Thu,2024-10-17,8:15PM,Denver Broncos,@,New Orleans Saints,boxscore,33,10,389,1,271,2
-7,Sun,2024-10-20,9:30AM,Jacksonville Jaguars,,New England Patriots,boxscore,32,16,364,0,295,0
-7,Sun,2024-10-20,1:00PM,Detroit Lions,@,Minnesota Vikings,boxscore,31,29,391,1,383,1
-7,Sun,2024-10-20,1:00PM,Seattle Seahawks,@,Atlanta Falcons,boxscore,34,14,339,0,369,3
-7,Sun,2024-10-20,1:00PM,Buffalo Bills,,Tennessee Titans,boxscore,34,10,389,0,289,2
-7,Sun,2024-10-20,1:00PM,Cincinnati Bengals,@,Cleveland Browns,boxscore,21,14,223,0,336,2
-7,Sun,2024-10-20,1:00PM,Indianapolis Colts,,Miami Dolphins,boxscore,16,10,284,1,337,2
-7,Sun,2024-10-20,1:00PM,Green Bay Packers,,Houston Texans,boxscore,24,22,277,3,197,0
-7,Sun,2024-10-20,1:00PM,Philadelphia Eagles,@,New York Giants,boxscore,28,3,339,0,119,0
-7,Sun,2024-10-20,4:05PM,Washington Commanders,,Carolina Panthers,boxscore,40,7,421,0,180,2
-7,Sun,2024-10-20,4:05PM,Los Angeles Rams,,Las Vegas Raiders,boxscore,20,15,259,1,317,4
+<<<<<<< HEAD
+7,Thu,2024-10-17,8:15PM,Denver Broncos,@,New Orleans Saints,preview,,,,,,
+7,Sun,2024-10-20,9:30AM,New England Patriots,@,Jacksonville Jaguars,preview,,,,,,
+7,Sun,2024-10-20,1:00PM,Cincinnati Bengals,@,Cleveland Browns,preview,,,,,,
+7,Sun,2024-10-20,1:00PM,Detroit Lions,@,Minnesota Vikings,preview,,,,,,
+7,Sun,2024-10-20,1:00PM,Houston Texans,@,Green Bay Packers,preview,,,,,,
+7,Sun,2024-10-20,1:00PM,Miami Dolphins,@,Indianapolis Colts,preview,,,,,,
+7,Sun,2024-10-20,1:00PM,Tennessee Titans,@,Buffalo Bills,preview,,,,,,
+7,Sun,2024-10-20,1:00PM,Philadelphia Eagles,@,New York Giants,preview,,,,,,
+7,Sun,2024-10-20,1:00PM,Seattle Seahawks,@,Atlanta Falcons,preview,,,,,,
+7,Sun,2024-10-20,4:05PM,Carolina Panthers,@,Washington Commanders,preview,,,,,,
 7,Sun,2024-10-20,4:25PM,Kansas City Chiefs,@,San Francisco 49ers,boxscore,28,18,329,2,310,3
 7,Sun,2024-10-20,8:20PM,Pittsburgh Steelers,,New York Jets,boxscore,37,15,409,0,323,2
 7,Mon,2024-10-21,8:15PM,Baltimore Ravens,@,Tampa Bay Buccaneers,boxscore,41,31,508,1,481,2
@@ -73,6 +73,7 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 9,Sun,2024-11-03,4:25PM,Los Angeles Rams,@,Seattle Seahawks,preview,,,,,,
 9,Sun,2024-11-03,8:20PM,Indianapolis Colts,@,Minnesota Vikings,preview,,,,,,
 9,Mon,2024-11-04,8:15PM,Tampa Bay Buccaneers,@,Kansas City Chiefs,preview,,,,,,
+>>>>>>> 17d32a8f194e80d0773d189b0d587f6e17789c9b
 1,Thu,2024-09-05,8:20PM,Kansas City Chiefs,,Baltimore Ravens,boxscore,27,20,353,1,452,1
 1,Fri,2024-09-06,8:15PM,Philadelphia Eagles,,Green Bay Packers,boxscore,34,29,410,3,414,1
 1,Sun,2024-09-08,1:00PM,Pittsburgh Steelers,@,Atlanta Falcons,boxscore,18,10,270,0,226,3
@@ -83,7 +84,6 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 1,Sun,2024-09-08,1:00PM,Chicago Bears,,Tennessee Titans,boxscore,24,17,148,1,244,3
 1,Sun,2024-09-08,1:00PM,New Orleans Saints,,Carolina Panthers,boxscore,47,10,379,1,193,3
 1,Sun,2024-09-08,1:00PM,Buffalo Bills,,Arizona Cardinals,boxscore,34,28,352,1,270,1
-1,Sun,2024-09-08,4:05PM,Seattle Seahawks,,Denver Broncos,boxscore,26,20,304,2,231,3
 1,Sun,2024-09-08,4:05PM,Los Angeles Chargers,,Las Vegas Raiders,boxscore,22,10,316,0,296,3
 1,Sun,2024-09-08,4:25PM,Tampa Bay Buccaneers,,Washington Commanders,boxscore,37,20,392,0,299,0
 1,Sun,2024-09-08,4:25PM,Dallas Cowboys,@,Cleveland Browns,boxscore,33,17,265,0,230,2
