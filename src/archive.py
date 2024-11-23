@@ -57,3 +57,9 @@ print("Graph Info:", G.number_of_nodes(), G.number_of_edges())
 team_rankings = nx.pagerank(G, alpha=0.9, weight='weight')
 ranking_df = pd.DataFrame(list(team_rankings.items()), columns=['Team', 'Rank']).sort_values(by='Rank', ascending=False)
 print(ranking_df)
+
+
+filtered_played = merged_played[merged_played['Delta_ScoreRank'].abs() >= 0.00]
+
+# Print the results DataFrame
+print(results.to_csv(index=False))
