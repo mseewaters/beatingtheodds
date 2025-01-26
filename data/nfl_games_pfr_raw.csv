@@ -211,10 +211,12 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 19,Sun,2025-01-12,4:30PM,Philadelphia Eagles,,Green Bay Packers,boxscore,22,10,290,0,302,4
 19,Sun,2025-01-12,8:00PM,Washington Commanders,@,Tampa Bay Buccaneers,boxscore,23,20,350,0,284,1
 19,Mon,2025-01-13,8:00PM,Los Angeles Rams,,Minnesota Vikings,boxscore,27,9,292,0,269,2
-20,Sat,2025-01-18,4:30PM,Houston Texans,@,Kansas City Chiefs,preview,,,,,,
-20,Sat,2025-01-18,8:00PM,Washington Commanders,@,Detroit Lions,preview,,,,,,
-20,Sun,2025-01-19,3:00PM,Los Angeles Rams,@,Philadelphia Eagles,preview,,,,,,
-20,Sun,2025-01-19,6:30PM,Baltimore Ravens,@,Buffalo Bills,preview,,,,,,
+20,Sat,2025-01-18,4:30PM,Kansas City Chiefs,,Houston Texans,boxscore,23,14,212,0,336,0
+20,Sat,2025-01-18,8:00PM,Washington Commanders,@,Detroit Lions,boxscore,45,31,481,0,521,5
+20,Sun,2025-01-19,3:00PM,Philadelphia Eagles,,Los Angeles Rams,boxscore,28,22,350,0,402,2
+20,Sun,2025-01-19,6:30PM,Buffalo Bills,,Baltimore Ravens,boxscore,27,25,273,0,416,3
+21,Sun,2025-01-26,3:00PM,Washington Commanders,@,Philadelphia Eagles,preview,,,,,,
+21,Sun,2025-01-26,6:30PM,Buffalo Bills,@,Kansas City Chiefs,preview,,,,,,
 1,Thu,2024-09-05,8:20PM,Kansas City Chiefs,,Baltimore Ravens,boxscore,27,20,353,1,452,1
 1,Fri,2024-09-06,8:15PM,Philadelphia Eagles,,Green Bay Packers,boxscore,34,29,410,3,414,1
 1,Sun,2024-09-08,1:00PM,Pittsburgh Steelers,@,Atlanta Falcons,boxscore,18,10,270,0,226,3
