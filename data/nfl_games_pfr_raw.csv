@@ -215,8 +215,9 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 20,Sat,2025-01-18,8:00PM,Washington Commanders,@,Detroit Lions,boxscore,45,31,481,0,521,5
 20,Sun,2025-01-19,3:00PM,Philadelphia Eagles,,Los Angeles Rams,boxscore,28,22,350,0,402,2
 20,Sun,2025-01-19,6:30PM,Buffalo Bills,,Baltimore Ravens,boxscore,27,25,273,0,416,3
-21,Sun,2025-01-26,3:00PM,Washington Commanders,@,Philadelphia Eagles,preview,,,,,,
-21,Sun,2025-01-26,6:30PM,Buffalo Bills,@,Kansas City Chiefs,preview,,,,,,
+21,Sun,2025-01-26,3:00PM,Philadelphia Eagles,,Washington Commanders,boxscore,55,23,459,0,350,4
+21,Sun,2025-01-26,6:30PM,Kansas City Chiefs,,Buffalo Bills,boxscore,32,29,368,1,374,0
+22,Sun,2025-02-09,6:30PM,Kansas City Chiefs,@,Philadelphia Eagles,preview,,,,,,
 1,Thu,2024-09-05,8:20PM,Kansas City Chiefs,,Baltimore Ravens,boxscore,27,20,353,1,452,1
 1,Fri,2024-09-06,8:15PM,Philadelphia Eagles,,Green Bay Packers,boxscore,34,29,410,3,414,1
 1,Sun,2024-09-08,1:00PM,Pittsburgh Steelers,@,Atlanta Falcons,boxscore,18,10,270,0,226,3
