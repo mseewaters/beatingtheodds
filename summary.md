@@ -21,5 +21,12 @@ Options:  single win/loss ranking, iterative strength of schedule
 
 ## Predictive models are built using ranking features (regression:  target = spread; classification: target = winner)
 
-
+packages
+pandas (import pandas as pd)
+networkx (import networkx as nx)
+seaborn (import seaborn as sns)
+matplotlib (import matplotlib.pyplot as plt)
+numpy (import numpy as np)
+scikit-learn (from sklearn.model_selection import train_test_split, KFold, from sklearn.feature_selection import RFE, from sklearn.metrics import mean_squared_error, accuracy_score, r2_score, from sklearn.preprocessing import StandardScaler)
+scipy (from scipy.stats.mstats import winsorize)
 
