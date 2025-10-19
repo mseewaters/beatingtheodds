@@ -10,7 +10,7 @@ dataprep.ipynb
 - data output:  data\nfl_games.csv
 
 dataprep_pfr.ipynb
-- data source: https://www.pro-football-reference.com/years/2024/games.htm
+- data source: https://www.pro-football-reference.com/years/2025/games.htm
 - data input: data\nfl_games_pfr_raw.csv
 - data output: data\nfl_games_pfr.csv
 
