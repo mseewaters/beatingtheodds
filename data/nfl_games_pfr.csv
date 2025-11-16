@@ -134,20 +134,20 @@
 132,9,Sun,2025-11-02,4:25PM,Buffalo Bills,,Kansas City Chiefs,28.0,21.0,404.0,0.0,305.0,1.0,2025,9,BUF,KC,BUF,KC,28.0,21.0,BUF,KC,99.0,KC,BUF,1.0,7.0,49.0,-42.0,True,0,2025-11-02,7,6
 133,9,Sun,2025-11-02,8:20PM,Seattle Seahawks,@,Washington Commanders,38.0,14.0,418.0,1.0,290.0,2.0,2025,9,SEA,WAS,WAS,SEA,14.0,38.0,SEA,WAS,128.0,WAS,SEA,1.0,24.0,52.0,-28.0,False,1,2025-11-02,6,13
 134,9,Mon,2025-11-03,8:15PM,Arizona Cardinals,@,Dallas Cowboys,27.0,17.0,340.0,0.0,333.0,3.0,2025,9,ARI,DAL,DAL,ARI,17.0,27.0,ARI,DAL,7.0,DAL,ARI,3.0,10.0,44.0,-34.0,False,1,2025-11-03,8,15
-135,10,Thu,2025-11-06,8:15PM,Denver Broncos,,Las Vegas Raiders,,,,,,,2025,10,DEN,LV,DEN,LV,,,LV,LV,,LV,LV,,,,,True,0,2025-11-06,4,4
-136,10,Sun,2025-11-09,9:30AM,Atlanta Falcons,@,Indianapolis Colts,,,,,,,2025,10,ATL,IND,IND,ATL,,,IND,IND,,IND,IND,,,,,False,1,2025-11-09,7,7
-137,10,Sun,2025-11-09,1:00PM,Buffalo Bills,@,Miami Dolphins,,,,,,,2025,10,BUF,MIA,MIA,BUF,,,MIA,MIA,,MIA,MIA,,,,,False,1,2025-11-09,10,7
-138,10,Sun,2025-11-09,1:00PM,Cleveland Browns,@,New York Jets,,,,,,,2025,10,CLE,NYJ,NYJ,CLE,,,NYJ,NYJ,,NYJ,NYJ,,,,,False,1,2025-11-09,14,14
-139,10,Sun,2025-11-09,1:00PM,Jacksonville Jaguars,@,Houston Texans,,,,,,,2025,10,JAC,HOU,HOU,JAC,,,HOU,HOU,,HOU,HOU,,,,,False,1,2025-11-09,7,7
-140,10,Sun,2025-11-09,1:00PM,New Orleans Saints,@,Carolina Panthers,,,,,,,2025,10,NO,CAR,CAR,NO,,,CAR,CAR,,CAR,CAR,,,,,False,1,2025-11-09,7,7
-141,10,Sun,2025-11-09,1:00PM,New England Patriots,@,Tampa Bay Buccaneers,,,,,,,2025,10,NE,TB,TB,NE,,,TB,TB,,TB,TB,,,,,False,1,2025-11-09,14,7
-142,10,Sun,2025-11-09,1:00PM,New York Giants,@,Chicago Bears,,,,,,,2025,10,NYG,CHI,CHI,NYG,,,CHI,CHI,,CHI,CHI,,,,,False,1,2025-11-09,7,7
-143,10,Sun,2025-11-09,1:00PM,Baltimore Ravens,@,Minnesota Vikings,,,,,,,2025,10,BAL,MIN,MIN,BAL,,,MIN,MIN,,MIN,MIN,,,,,False,1,2025-11-09,7,10
-144,10,Sun,2025-11-09,4:05PM,Arizona Cardinals,@,Seattle Seahawks,,,,,,,2025,10,ARI,SEA,SEA,ARI,,,SEA,SEA,,SEA,SEA,,,,,False,1,2025-11-09,7,6
-145,10,Sun,2025-11-09,4:25PM,Detroit Lions,@,Washington Commanders,,,,,,,2025,10,DET,WAS,WAS,DET,,,WAS,WAS,,WAS,WAS,,,,,False,1,2025-11-09,7,7
-146,10,Sun,2025-11-09,4:25PM,Los Angeles Rams,@,San Francisco 49ers,,,,,,,2025,10,LAR,SF,SF,LAR,,,SF,SF,,SF,SF,,,,,False,1,2025-11-09,7,7
-147,10,Sun,2025-11-09,8:20PM,Pittsburgh Steelers,@,Los Angeles Chargers,,,,,,,2025,10,PIT,LAC,LAC,PIT,,,LAC,LAC,,LAC,LAC,,,,,False,1,2025-11-09,7,7
-148,10,Mon,2025-11-10,8:15PM,Philadelphia Eagles,@,Green Bay Packers,,,,,,,2025,10,PHI,GB,GB,PHI,,,GB,GB,,GB,GB,,,,,False,1,2025-11-10,8,15
+135,10,Thu,2025-11-06,8:15PM,Denver Broncos,,Las Vegas Raiders,10.0,7.0,220.0,2.0,188.0,1.0,2025,10,DEN,LV,DEN,LV,10.0,7.0,DEN,LV,32.0,DEN,LV,1.0,3.0,17.0,-14.0,True,0,2025-11-06,4,4
+136,10,Sun,2025-11-09,9:30AM,Indianapolis Colts,,Atlanta Falcons,31.0,25.0,519.0,2.0,290.0,1.0,2025,10,IND,ATL,IND,ATL,31.0,25.0,IND,ATL,229.0,IND,ATL,1.0,6.0,56.0,-50.0,True,0,2025-11-09,7,7
+137,10,Sun,2025-11-09,1:00PM,Miami Dolphins,,Buffalo Bills,30.0,13.0,370.0,2.0,376.0,3.0,2025,10,MIA,BUF,MIA,BUF,30.0,13.0,BUF,MIA,6.0,BUF,MIA,1.0,17.0,43.0,-26.0,True,0,2025-11-09,10,7
+138,10,Sun,2025-11-09,1:00PM,Chicago Bears,,New York Giants,24.0,20.0,391.0,0.0,431.0,1.0,2025,10,CHI,NYG,CHI,NYG,24.0,20.0,NYG,CHI,40.0,NYG,CHI,1.0,4.0,44.0,-40.0,True,0,2025-11-09,7,7
+139,10,Sun,2025-11-09,1:00PM,New York Jets,,Cleveland Browns,27.0,20.0,169.0,1.0,278.0,0.0,2025,10,NYJ,CLE,NYJ,CLE,27.0,20.0,CLE,NYJ,109.0,NYJ,CLE,1.0,7.0,47.0,-40.0,True,0,2025-11-09,14,14
+140,10,Sun,2025-11-09,1:00PM,Houston Texans,,Jacksonville Jaguars,36.0,29.0,412.0,2.0,213.0,2.0,2025,10,HOU,JAC,HOU,JAC,36.0,29.0,HOU,JAC,199.0,HOU,JAC,0.0,7.0,65.0,-58.0,True,0,2025-11-09,7,7
+141,10,Sun,2025-11-09,1:00PM,Baltimore Ravens,@,Minnesota Vikings,27.0,19.0,321.0,0.0,365.0,3.0,2025,10,BAL,MIN,MIN,BAL,19.0,27.0,MIN,BAL,44.0,MIN,BAL,3.0,8.0,46.0,-38.0,False,1,2025-11-09,7,10
+142,10,Sun,2025-11-09,1:00PM,New Orleans Saints,@,Carolina Panthers,17.0,7.0,388.0,1.0,175.0,2.0,2025,10,NO,CAR,CAR,NO,7.0,17.0,NO,CAR,213.0,CAR,NO,1.0,10.0,24.0,-14.0,False,1,2025-11-09,7,7
+143,10,Sun,2025-11-09,1:00PM,New England Patriots,@,Tampa Bay Buccaneers,28.0,23.0,435.0,1.0,371.0,0.0,2025,10,NE,TB,TB,NE,23.0,28.0,NE,TB,64.0,NE,TB,1.0,5.0,51.0,-46.0,False,1,2025-11-09,14,7
+144,10,Sun,2025-11-09,4:05PM,Seattle Seahawks,,Arizona Cardinals,44.0,22.0,372.0,3.0,335.0,2.0,2025,10,SEA,ARI,SEA,ARI,44.0,22.0,SEA,ARI,37.0,SEA,ARI,1.0,22.0,66.0,-44.0,True,0,2025-11-09,7,6
+145,10,Sun,2025-11-09,4:25PM,Detroit Lions,@,Washington Commanders,44.0,22.0,546.0,0.0,288.0,0.0,2025,10,DET,WAS,WAS,DET,22.0,44.0,DET,WAS,258.0,DET,WAS,0.0,22.0,66.0,-44.0,False,1,2025-11-09,7,7
+146,10,Sun,2025-11-09,4:25PM,Los Angeles Rams,@,San Francisco 49ers,42.0,26.0,401.0,0.0,393.0,2.0,2025,10,LAR,SF,SF,LAR,26.0,42.0,LAR,SF,8.0,SF,LAR,2.0,16.0,68.0,-52.0,False,1,2025-11-09,7,7
+147,10,Sun,2025-11-09,8:20PM,Los Angeles Chargers,,Pittsburgh Steelers,25.0,10.0,314.0,0.0,221.0,3.0,2025,10,LAC,PIT,LAC,PIT,25.0,10.0,LAC,PIT,93.0,PIT,LAC,3.0,15.0,35.0,-20.0,True,0,2025-11-09,7,7
+148,10,Mon,2025-11-10,8:15PM,Philadelphia Eagles,@,Green Bay Packers,10.0,7.0,294.0,1.0,261.0,2.0,2025,10,PHI,GB,GB,PHI,7.0,10.0,PHI,GB,33.0,GB,PHI,1.0,3.0,17.0,-14.0,False,1,2025-11-10,8,15
 149,11,Thu,2025-11-13,8:15PM,New York Jets,@,New England Patriots,,,,,,,2025,11,NYJ,NE,NE,NYJ,,,NE,NE,,NE,NE,,,,,False,1,2025-11-13,4,4
 150,11,Sun,2025-11-16,9:30AM,Washington Commanders,@,Miami Dolphins,,,,,,,2025,11,WAS,MIA,MIA,WAS,,,MIA,MIA,,MIA,MIA,,,,,False,1,2025-11-16,7,7
 151,11,Sun,2025-11-16,1:00PM,Carolina Panthers,@,Atlanta Falcons,,,,,,,2025,11,CAR,ATL,ATL,CAR,,,ATL,ATL,,ATL,ATL,,,,,False,1,2025-11-16,7,7
